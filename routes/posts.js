@@ -1,7 +1,7 @@
 import express from "express";
-import { Router } from "express";
 
 const router = express.Router();
+
 let posts = [
   { id: 1, title: "post one" },
   { id: 2, title: "post two" },
@@ -39,4 +39,4 @@ router.post("/", (req, res) => {
   }
 });
 
-export default Router;
+export default router;
